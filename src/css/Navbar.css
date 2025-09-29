@@ -1,0 +1,18 @@
+
+.navbar-custom {
+  transition: transform 0.15s ease;
+  background: #3e8000;
+  background: linear-gradient(360deg, rgba(62, 128, 0, 1) 0%, rgba(250, 226, 15, 1) 100%);
+  opacity: 0.95;
+}
+
+.navbar-custom.hide {
+  transform: translateY(-100%);
+}
+
+.navbar-custom.show {
+  transform: translateY(0);
+}
+
+
+

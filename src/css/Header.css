@@ -1,0 +1,12 @@
+.header-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente si hay altura */
+  padding: 10px;
+  background-color: #fff;  /* Opcional: fondo */
+}
+
+.header-image {
+  max-width: 200px; /* Ajusta según lo necesites */
+  height: auto;
+}

@@ -1,0 +1,23 @@
+.bg-custom {
+    background-image: url(https://images.pexels.com/photos/6465185/pexels-photo-6465185.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-custom2 {
+    background: #fffb00;
+    background: linear-gradient(0deg, rgba(255, 251, 0, 1) 0%, rgba(20, 219, 110, 1) 84%);
+    opacity: 0.9;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+
+.sesion, .form-label {
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,17 @@
+.info-section {
+  background-color: #f8f9fa; /* Color de fondo claro */
+  padding: 40px 20px;
+}
+
+.info-section h2 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.info-section p {
+  font-size: 1rem;
+  color: #34495e;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}

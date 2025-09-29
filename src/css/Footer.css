@@ -1,0 +1,25 @@
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.15s ease-in-out;
+  z-index: 1000;
+  background: #3e8000;
+  background: linear-gradient(360deg, rgba(62, 128, 0, 1) 0%, rgba(250, 226, 15, 1) 100%);
+}
+
+.footer-fixed.hide {
+  transform: translateY(100%);
+}
+
+.footer-fixed.show {
+  transform: translateY(0);
+}
+
+/* Footer compacto */
+.footer-compact {
+  padding: 5px 10px;
+  font-size: 0.85rem;
+}
