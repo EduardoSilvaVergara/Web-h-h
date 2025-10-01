@@ -1,49 +1,72 @@
 import Carousel from "react-bootstrap/Carousel";
+import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 function CustomCarousel() {
   return (
-    <Carousel fade>
-      {/* Slide 1 */}
+    <Carousel>
+      {/* Slide 1: 3 cards */}
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://via.placeholder.com/800x400?text=First+Slide"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <Button variant="primary">Comprar ahora</Button>
-        </Carousel.Caption>
+        <div className="carousel-cards d-flex justify-content-center gap-3 flex-wrap mb-5">
+          <Card className="carousel-card">
+            <Card.Img variant="top" src="/" />
+            <Card.Body>
+              <Card.Title>Producto 1</Card.Title>
+              <Card.Text>Descripción breve del producto 1.</Card.Text>
+              <Button variant="primary">Ver más</Button>
+            </Card.Body>
+          </Card>
+
+          <Card className="carousel-card">
+            <Card.Img variant="top" src="/" />
+            <Card.Body>
+              <Card.Title>Producto 2</Card.Title>
+              <Card.Text>Descripción breve del producto 2.</Card.Text>
+              <Button variant="success">Ver más</Button>
+            </Card.Body>
+          </Card>
+
+          <Card className="carousel-card">
+            <Card.Img variant="top" src="/" />
+            <Card.Body>
+              <Card.Title>Producto 3</Card.Title>
+              <Card.Text>Descripción breve del producto 3.</Card.Text>
+              <Button variant="warning">Ver más</Button>
+            </Card.Body>
+          </Card>
+        </div>
       </Carousel.Item>
 
-      {/* Slide 2 */}
+      {/* Slide 2: 3 cards */}
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://via.placeholder.com/800x400?text=Second+Slide"
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <Button variant="success">Ver más</Button>
-        </Carousel.Caption>
-      </Carousel.Item>
+        <div className="carousel-cards d-flex justify-content-center gap-3 flex-wrap mb-5">
+          <Card className="carousel-card">
+            <Card.Img variant="top" src="/" />
+            <Card.Body>
+              <Card.Title>Producto 4</Card.Title>
+              <Card.Text>Descripción breve del producto 4.</Card.Text>
+              <Button variant="primary">Ver más</Button>
+            </Card.Body>
+          </Card>
 
-      {/* Slide 3 */}
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://via.placeholder.com/800x400?text=Third+Slide"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          <Button variant="warning">Oferta</Button>
-        </Carousel.Caption>
+          <Card className="carousel-card">
+            <Card.Img variant="top" src="/" />
+            <Card.Body>
+              <Card.Title>Producto 5</Card.Title>
+              <Card.Text>Descripción breve del producto 5.</Card.Text>
+              <Button variant="success">Ver más</Button>
+            </Card.Body>
+          </Card>
+
+          <Card className="carousel-card">
+            <Card.Img variant="top" src="/" />
+            <Card.Body>
+              <Card.Title>Producto 6</Card.Title>
+              <Card.Text>Descripción breve del producto 6.</Card.Text>
+              <Button variant="warning">Ver más</Button>
+            </Card.Body>
+          </Card>
+        </div>
       </Carousel.Item>
     </Carousel>
   );

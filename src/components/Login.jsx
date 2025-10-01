@@ -27,7 +27,7 @@ export default function Login() {
 
   return (
     <Fragment>
-      <div className="card bg-custom2">
+      <div className="card bg-custom2 mb-5">
         <div className="card-body">
           <div className="mb-4">
             <a href="#" className="link"></a>

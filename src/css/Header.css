@@ -4,9 +4,10 @@
   align-items: center;     /* Centra verticalmente si hay altura */
   padding: 10px;
   background-color: #fff;  /* Opcional: fondo */
+  border-radius: 20px;
 }
 
 .header-image {
-  max-width: 200px; /* Ajusta según lo necesites */
+  max-width: 800px; /* Ajusta según lo necesites */
   height: auto;
 }

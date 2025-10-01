@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Beneficios() {
   return (
-    <section className="beneficios py-5 bg-light">
-      <div className="container">
+    <section className="beneficios py-5 bg-white mb-5">
+      <div className="container-fluid">
         <h2 className="text-center mb-4">¿Por qué elegirnos?</h2>
         <div className="row text-center">
           

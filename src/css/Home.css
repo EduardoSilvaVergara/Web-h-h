@@ -1,0 +1,43 @@
+.bg-custom2{
+  background: #3e8000;
+  background: linear-gradient(360deg, rgba(62, 128, 0, 1) 0%, rgba(250, 226, 15, 1) 100%);
+}
+
+.promocion {
+  width: 100%;
+  height: 170px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  padding: 10px;
+}
+
+.resena{
+  background: #3e8000;
+  background: linear-gradient(360deg, rgba(62, 128, 0, 1) 0%, rgba(250, 226, 15, 1) 100%);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+
+.boletin{
+  background: #3e8000;
+  background: linear-gradient(360deg, rgba(62, 128, 0, 1) 0%, rgba(250, 226, 15, 1) 100%);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+
+.carousels{
+  background: #3e8000;
+  background: linear-gradient(360deg, rgba(62, 128, 0, 1) 0%, rgba(250, 226, 15, 1) 100%);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: black solid 1px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+
+

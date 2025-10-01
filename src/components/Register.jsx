@@ -40,46 +40,26 @@ export default function Register() {
             <form autoComplete="off" onSubmit={handleSubmit}>
               <div className="mb-3">
                 <label htmlFor="nombre" className="form-label">Nombre Completo:</label>
-                <input
-                  type="text"
-                  id="nombre"
-                  className="form-control"
-                  value={nombre}
-                  onChange={(e) => setNombre(e.target.value)}
-                  required
+                <input type="text" id="nombre" className="form-control" value={nombre}
+                  onChange={(e) => setNombre(e.target.value)} required
                 />
               </div>
               <div className="mb-3">
                 <label htmlFor="email" className="form-label">Correo electrónico:</label>
-                <input
-                  type="email"
-                  id="email"
-                  className="form-control"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
+                <input type="email" id="email" className="form-control" value={email}
+                  onChange={(e) => setEmail(e.target.value)} required
                 />
               </div>
               <div className="mb-3">
                 <label htmlFor="password" className="form-label">Contraseña:</label>
-                <input
-                  type="password"
-                  id="password"
-                  className="form-control"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
+                <input type="password" id="password" className="form-control" value={password}
+                  onChange={(e) => setPassword(e.target.value)} required
                 />
               </div>
               <div className="mb-3">
                 <label htmlFor="confirmPassword" className="form-label">Confirmar Contraseña:</label>
-                <input
-                  type="password"
-                  id="confirmPassword"
-                  className="form-control"
-                  value={confirmPassword}
-                  onChange={(e) => setConfirmPassword(e.target.value)}
-                  required
+                <input type="password" id="confirmPassword" className="form-control" value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)} required
                 />
               </div>
 
@@ -93,7 +73,7 @@ export default function Register() {
             </form>
 
             <p className="text">
-              ¿Tienes una cuenta? <a href="#" className="link">Iniciar Sesión</a>
+              ¿Tienes una cuenta? <a href="/" className="link">Iniciar Sesión</a>
             </p>
           </div>
         </div>

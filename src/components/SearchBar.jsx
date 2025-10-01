@@ -3,7 +3,7 @@ import '../css/SearchBar.css';
 
 export default function SearchBar({ onSearch }) {
   return (
-    <div className="search-bar-container">
+    <div className="search-bar-container mb-5">
       <input
         type="text"
         placeholder="Buscar..."

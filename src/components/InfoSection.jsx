@@ -3,7 +3,7 @@ import "../css/InfoSection.css"; // Opcional para estilos
 
 export default function InfoSection({ title, text }) {
   return (
-    <section className="info-section py-4">
+    <section className="info-section py-4 mb-5 bg-white">
       <div className="container">
         <h2 className="text-center mb-3">{title}</h2>
         <p className="text-center">{text}</p>

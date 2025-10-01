@@ -7,7 +7,7 @@ export default function Footer() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY;
-      setShowFooter(currentScroll > 50); // aparece si bajas >50px
+      setShowFooter(currentScroll > 50);
     };
 
     window.addEventListener("scroll", handleScroll);

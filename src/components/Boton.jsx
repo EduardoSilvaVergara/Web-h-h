@@ -3,9 +3,12 @@ import Button from "react-bootstrap/Button"; // Usando React Bootstrap
 
 export default function Boton({ text, variant = "primary", size = "md", onClick }) {
   return (
-    <Button variant={variant} size={size} onClick={onClick}>
+    <div className="btn mb-5">
+      <Button variant={variant} size={size} onClick={onClick}>
       {text}
     </Button>
+    </div>
+    
   );
 }
 
@@ -28,3 +31,4 @@ export default function Boton({ text, variant = "primary", size = "md", onClick 
 // }
 
 // export default Home;
+
